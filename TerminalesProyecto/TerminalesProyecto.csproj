@@ -46,6 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cooperativa\Clases\Boleto.cs" />
+    <Compile Include="Cooperativa\Clases\BoletoAsiento.cs" />
+    <Compile Include="Cooperativa\Clases\Bus.cs" />
+    <Compile Include="Cooperativa\Clases\Chofer.cs" />
+    <Compile Include="Cooperativa\Clases\Cliente.cs" />
+    <Compile Include="Cooperativa\Clases\Cooperativa.cs" />
+    <Compile Include="Cooperativa\Clases\Destino.cs" />
+    <Compile Include="Cooperativa\Clases\DetalleViaje.cs" />
+    <Compile Include="Cooperativa\Clases\EncomiendaArticulo.cs" />
+    <Compile Include="Cooperativa\Clases\Horario.cs" />
+    <Compile Include="Cooperativa\Clases\MarcaBus.cs" />
+    <Compile Include="Cooperativa\Clases\ModeloBus.cs" />
+    <Compile Include="Cooperativa\Clases\Oficinista.cs" />
+    <Compile Include="Cooperativa\Clases\Personal.cs" />
+    <Compile Include="Cooperativa\Clases\Ruta.cs" />
+    <Compile Include="Cooperativa\Clases\Encomienda.cs" />
+    <Compile Include="Cooperativa\Forms\ClienteAgregar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\ClienteAgregar.Designer.cs">
+      <DependentUpon>ClienteAgregar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\Clientes.Designer.cs">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +82,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cooperativa\Forms\ClienteAgregar.resx">
+      <DependentUpon>ClienteAgregar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cooperativa\Forms\Clientes.resx">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -75,6 +112,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Locales\Clases\" />
+    <Folder Include="Locales\Forms\" />
+    <Folder Include="NewFolder1\" />
+    <Folder Include="Terminales\Clases\" />
+    <Folder Include="Terminales\Forms\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,11 @@
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\bin\Debug\TerminalesProyecto.exe.config
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\bin\Debug\TerminalesProyecto.exe
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\bin\Debug\TerminalesProyecto.pdb
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.csproj.AssemblyReference.cache
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Form1.resources
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Properties.Resources.resources
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.csproj.GenerateResource.cache
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.csproj.CoreCompileInputs.cache
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.exe
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.pdb
