@@ -92,11 +92,11 @@
     <Compile Include="Cooperativa\Forms\frmbuscarclienteboleto.Designer.cs">
       <DependentUpon>frmbuscarclienteboleto.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cooperativa\Forms\frmbusquedadato.cs">
+    <Compile Include="Cooperativa\Forms\buscadorclienteasiento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cooperativa\Forms\frmbusquedadato.Designer.cs">
-      <DependentUpon>frmbusquedadato.cs</DependentUpon>
+    <Compile Include="Cooperativa\Forms\buscadorclienteasiento.Designer.cs">
+      <DependentUpon>buscadorclienteasiento.cs</DependentUpon>
     </Compile>
     <Compile Include="Cooperativa\Forms\frmClientes.cs">
       <SubType>Form</SubType>
@@ -128,8 +128,8 @@
     <EmbeddedResource Include="Cooperativa\Forms\frmbuscarclienteboleto.resx">
       <DependentUpon>frmbuscarclienteboleto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Cooperativa\Forms\frmbusquedadato.resx">
-      <DependentUpon>frmbusquedadato.cs</DependentUpon>
+    <EmbeddedResource Include="Cooperativa\Forms\buscadorclienteasiento.resx">
+      <DependentUpon>buscadorclienteasiento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cooperativa\Forms\frmClientes.resx">
       <DependentUpon>frmClientes.cs</DependentUpon>
