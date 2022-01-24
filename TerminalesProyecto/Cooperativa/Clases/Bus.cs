@@ -14,14 +14,14 @@ namespace TerminalesProyecto.Cooperativa.Clases
         int idbus;
         int idModelo;
         int idCooperativa;
-        int anhio;
+        int anio;
         bool estado;
         string placa;
 
         public int Idbus { get => idbus; set => idbus = value; }
         public int IdModelo { get => idModelo; set => idModelo = value; }
         public int IdCooperativa { get => idCooperativa; set => idCooperativa = value; }
-        public int Anhio { get => anhio; set => anhio = value; }
+        public int Anio { get => anio; set => anio = value; }
         public bool Estado { get => estado; set => estado = value; }
         public string Placa { get => placa; set => placa = value; }
 
