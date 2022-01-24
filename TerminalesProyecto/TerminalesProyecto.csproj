@@ -80,6 +80,12 @@
     <Compile Include="Cooperativa\Forms\frmAgregarHorarios.Designer.cs">
       <DependentUpon>frmAgregarHorarios.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cooperativa\Forms\frmagregarchofer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmagregarchofer.Designer.cs">
+      <DependentUpon>frmagregarchofer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cooperativa\Forms\frmClienteAgregar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -169,6 +175,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cooperativa\Forms\frmAgregarHorarios.resx">
       <DependentUpon>frmAgregarHorarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cooperativa\Forms\frmagregarchofer.resx">
+      <DependentUpon>frmagregarchofer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cooperativa\Forms\frmClienteAgregar.resx">
       <DependentUpon>frmClienteAgregar.cs</DependentUpon>

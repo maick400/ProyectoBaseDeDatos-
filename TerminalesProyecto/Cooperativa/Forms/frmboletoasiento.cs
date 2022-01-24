@@ -36,5 +36,12 @@ namespace TerminalesProyecto.Cooperativa.Forms
         {
 
         }
+
+        private void button36_Click(object sender, EventArgs e)
+        {
+            new buscadorclienteasiento().Show();
+            this.Hide();
+
+        }
     }
 }
