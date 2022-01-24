@@ -9,7 +9,6 @@ C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\Terminales
 C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.csproj.CoreCompileInputs.cache
 C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.exe
 C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.pdb
-C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Cooperativa.Forms.ClienteAgregar.resources
 C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Cooperativa.Forms.frmClientes.resources
 C:\Users\vale\Documents\Githabproyecto\TerminalesProyecto\bin\Debug\TerminalesProyecto.exe.config
 C:\Users\vale\Documents\Githabproyecto\TerminalesProyecto\bin\Debug\TerminalesProyecto.exe
@@ -23,3 +22,12 @@ C:\Users\vale\Documents\Githabproyecto\TerminalesProyecto\obj\Debug\TerminalesPr
 C:\Users\vale\Documents\Githabproyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.csproj.CoreCompileInputs.cache
 C:\Users\vale\Documents\Githabproyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.exe
 C:\Users\vale\Documents\Githabproyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.pdb
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Cooperativa.Forms.frmAgregarDestino.resources
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Cooperativa.Forms.frmAgregarHorarios.resources
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Cooperativa.Forms.frmClienteAgregar.resources
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Cooperativa.Forms.frmBus.resources
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Cooperativa.Forms.frmDestinos.resources
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Cooperativa.Forms.frmEncomiendaArticulo.resources
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Cooperativa.Forms.frmEncomiendaRegistrar.resources
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Cooperativa.Forms.frmEncomiendas.resources
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Cooperativa.Forms.frmHorarios.resources

@@ -1,6 +1,6 @@
 ﻿namespace TerminalesProyecto.Cooperativa.Forms
 {
-    partial class ClienteAgregar
+    partial class frmClienteAgregar
     {
         /// <summary>
         /// Required designer variable.
