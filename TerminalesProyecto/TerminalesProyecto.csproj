@@ -62,11 +62,29 @@
     <Compile Include="Cooperativa\Clases\Personal.cs" />
     <Compile Include="Cooperativa\Clases\Ruta.cs" />
     <Compile Include="Cooperativa\Clases\Encomienda.cs" />
-    <Compile Include="Cooperativa\Forms\ClienteAgregar.cs">
+    <Compile Include="Cooperativa\Forms\frmAgregarHorario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cooperativa\Forms\ClienteAgregar.Designer.cs">
-      <DependentUpon>ClienteAgregar.cs</DependentUpon>
+    <Compile Include="Cooperativa\Forms\frmAgregarHorario.Designer.cs">
+      <DependentUpon>frmAgregarHorario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmAgregarRuta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmAgregarRuta.Designer.cs">
+      <DependentUpon>frmAgregarRuta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmAgregarHorarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmAgregarHorarios.Designer.cs">
+      <DependentUpon>frmAgregarHorarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmClienteAgregar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmClienteAgregar.Designer.cs">
+      <DependentUpon>frmClienteAgregar.cs</DependentUpon>
     </Compile>
     <Compile Include="Cooperativa\Forms\frmBoleto.cs">
       <SubType>Form</SubType>
@@ -104,6 +122,36 @@
     <Compile Include="Cooperativa\Forms\frmClientes.Designer.cs">
       <DependentUpon>frmClientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cooperativa\Forms\frmDestinos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmDestinos.Designer.cs">
+      <DependentUpon>frmDestinos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmEncomiendaArticulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmEncomiendaArticulo.Designer.cs">
+      <DependentUpon>frmEncomiendaArticulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmEncomiendaRegistrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmEncomiendaRegistrar.Designer.cs">
+      <DependentUpon>frmEncomiendaRegistrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmEncomiendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmEncomiendas.Designer.cs">
+      <DependentUpon>frmEncomiendas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmHorarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmHorarios.Designer.cs">
+      <DependentUpon>frmHorarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,8 +161,17 @@
     <Compile Include="Logica\ConexionDB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Cooperativa\Forms\ClienteAgregar.resx">
-      <DependentUpon>ClienteAgregar.cs</DependentUpon>
+    <EmbeddedResource Include="Cooperativa\Forms\frmAgregarHorario.resx">
+      <DependentUpon>frmAgregarHorario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cooperativa\Forms\frmAgregarRuta.resx">
+      <DependentUpon>frmAgregarRuta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cooperativa\Forms\frmAgregarHorarios.resx">
+      <DependentUpon>frmAgregarHorarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cooperativa\Forms\frmClienteAgregar.resx">
+      <DependentUpon>frmClienteAgregar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cooperativa\Forms\frmBoleto.resx">
       <DependentUpon>frmBoleto.cs</DependentUpon>
@@ -133,6 +190,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cooperativa\Forms\frmClientes.resx">
       <DependentUpon>frmClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cooperativa\Forms\frmDestinos.resx">
+      <DependentUpon>frmDestinos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cooperativa\Forms\frmEncomiendaArticulo.resx">
+      <DependentUpon>frmEncomiendaArticulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cooperativa\Forms\frmEncomiendaRegistrar.resx">
+      <DependentUpon>frmEncomiendaRegistrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cooperativa\Forms\frmEncomiendas.resx">
+      <DependentUpon>frmEncomiendas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cooperativa\Forms\frmHorarios.resx">
+      <DependentUpon>frmHorarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

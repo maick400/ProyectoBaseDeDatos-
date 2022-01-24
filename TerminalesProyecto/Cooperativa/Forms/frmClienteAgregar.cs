@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TerminalesProyecto.Cooperativa.Forms
 {
-    public partial class ClienteAgregar : Form
+    public partial class frmClienteAgregar : Form
     {
-        public ClienteAgregar()
+        public frmClienteAgregar()
         {
             InitializeComponent();
         }
