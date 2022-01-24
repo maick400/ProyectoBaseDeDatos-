@@ -35,5 +35,12 @@ namespace TerminalesProyecto.Cooperativa.Forms
 
             dataGridView1.DataSource = cliente.Listar();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            new frmBoleto().Show();
+            this.Hide();
+
+        }
     }
 }

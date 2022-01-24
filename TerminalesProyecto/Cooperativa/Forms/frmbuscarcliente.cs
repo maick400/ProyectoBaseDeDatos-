@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace TerminalesProyecto.Cooperativa.Forms
 {
-    public partial class frmagregardestino : Form
+    public partial class frmbuscarcliente : Form
     {
-        public frmagregardestino()
+        public frmbuscarcliente()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }

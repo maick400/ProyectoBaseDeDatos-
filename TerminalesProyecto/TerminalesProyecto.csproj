@@ -68,11 +68,11 @@
     <Compile Include="Cooperativa\Forms\chofer.Designer.cs">
       <DependentUpon>chofer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cooperativa\Forms\frmagregardestino.cs">
+    <Compile Include="Cooperativa\Forms\frmagredestino.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cooperativa\Forms\frmagregardestino.Designer.cs">
-      <DependentUpon>frmagregardestino.cs</DependentUpon>
+    <Compile Include="Cooperativa\Forms\frmagredestino.Designer.cs">
+      <DependentUpon>frmagredestino.cs</DependentUpon>
     </Compile>
     <Compile Include="Cooperativa\Forms\frmAgregarHorario.cs">
       <SubType>Form</SubType>
@@ -134,17 +134,11 @@
     <Compile Include="Cooperativa\Forms\frmBus.Designer.cs">
       <DependentUpon>frmBus.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cooperativa\Forms\frmbuscarclienteboleto.cs">
+    <Compile Include="Cooperativa\Forms\frmbuscarcliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cooperativa\Forms\frmbuscarclienteboleto.Designer.cs">
-      <DependentUpon>frmbuscarclienteboleto.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Cooperativa\Forms\buscadorclienteasiento.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Cooperativa\Forms\buscadorclienteasiento.Designer.cs">
-      <DependentUpon>buscadorclienteasiento.cs</DependentUpon>
+    <Compile Include="Cooperativa\Forms\frmbuscarcliente.Designer.cs">
+      <DependentUpon>frmbuscarcliente.cs</DependentUpon>
     </Compile>
     <Compile Include="Cooperativa\Forms\frmClientes.cs">
       <SubType>Form</SubType>
@@ -194,6 +188,12 @@
     <Compile Include="Cooperativa\Forms\frmHorarios.Designer.cs">
       <DependentUpon>frmHorarios.cs</DependentUpon>
     </Compile>
+    <Compile Include="entrar\form\frmentrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="entrar\form\frmentrar.Designer.cs">
+      <DependentUpon>frmentrar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -206,8 +206,8 @@
     <EmbeddedResource Include="Cooperativa\Forms\chofer.resx">
       <DependentUpon>chofer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Cooperativa\Forms\frmagregardestino.resx">
-      <DependentUpon>frmagregardestino.cs</DependentUpon>
+    <EmbeddedResource Include="Cooperativa\Forms\frmagredestino.resx">
+      <DependentUpon>frmagredestino.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cooperativa\Forms\frmAgregarHorario.resx">
       <DependentUpon>frmAgregarHorario.cs</DependentUpon>
@@ -239,11 +239,8 @@
     <EmbeddedResource Include="Cooperativa\Forms\frmBus.resx">
       <DependentUpon>frmBus.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Cooperativa\Forms\frmbuscarclienteboleto.resx">
-      <DependentUpon>frmbuscarclienteboleto.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Cooperativa\Forms\buscadorclienteasiento.resx">
-      <DependentUpon>buscadorclienteasiento.cs</DependentUpon>
+    <EmbeddedResource Include="Cooperativa\Forms\frmbuscarcliente.resx">
+      <DependentUpon>frmbuscarcliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cooperativa\Forms\frmClientes.resx">
       <DependentUpon>frmClientes.cs</DependentUpon>
@@ -268,6 +265,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cooperativa\Forms\frmHorarios.resx">
       <DependentUpon>frmHorarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="entrar\form\frmentrar.resx">
+      <DependentUpon>frmentrar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -295,6 +295,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="entrar\clase\" />
     <Folder Include="Locales\Clases\" />
     <Folder Include="Locales\Forms\" />
     <Folder Include="Terminales\Clases\" />

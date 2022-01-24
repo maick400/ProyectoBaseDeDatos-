@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TerminalesProyecto.Cooperativa.Forms
 {
-    public partial class buscadorclienteasiento : Form
+    public partial class frmagredestino : Form
     {
-        public buscadorclienteasiento()
+        public frmagredestino()
         {
             InitializeComponent();
         }

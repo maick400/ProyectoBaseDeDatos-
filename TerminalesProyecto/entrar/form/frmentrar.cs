@@ -8,24 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TerminalesProyecto.Cooperativa.Forms
+namespace TerminalesProyecto.entrar.form
 {
-    public partial class frmDestinos : Form
+    public partial class frmentrar : Form
     {
-        public frmDestinos()
+        public frmentrar()
         {
             InitializeComponent();
         }
 
-        private void frmDestinos_Load(object sender, EventArgs e)
+        private void btncerrar_Click(object sender, EventArgs e)
         {
+            Application.Exit();
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            new frmagredestino().Show();
-            
 
         }
     }
