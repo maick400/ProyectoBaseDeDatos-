@@ -68,6 +68,12 @@
     <Compile Include="Cooperativa\Forms\ClienteAgregar.Designer.cs">
       <DependentUpon>ClienteAgregar.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cooperativa\Forms\frmBus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmBus.Designer.cs">
+      <DependentUpon>frmBus.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cooperativa\Forms\frmClientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +91,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Cooperativa\Forms\ClienteAgregar.resx">
       <DependentUpon>ClienteAgregar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cooperativa\Forms\frmBus.resx">
+      <DependentUpon>frmBus.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cooperativa\Forms\frmClientes.resx">
       <DependentUpon>frmClientes.cs</DependentUpon>
