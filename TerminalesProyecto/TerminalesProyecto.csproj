@@ -74,6 +74,12 @@
     <Compile Include="Cooperativa\Forms\frmBoleto.Designer.cs">
       <DependentUpon>frmBoleto.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cooperativa\Forms\frmboletoasiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmboletoasiento.Designer.cs">
+      <DependentUpon>frmboletoasiento.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cooperativa\Forms\frmBus.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +91,12 @@
     </Compile>
     <Compile Include="Cooperativa\Forms\frmbuscarclienteboleto.Designer.cs">
       <DependentUpon>frmbuscarclienteboleto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmbusquedadato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmbusquedadato.Designer.cs">
+      <DependentUpon>frmbusquedadato.cs</DependentUpon>
     </Compile>
     <Compile Include="Cooperativa\Forms\frmClientes.cs">
       <SubType>Form</SubType>
@@ -107,11 +119,17 @@
     <EmbeddedResource Include="Cooperativa\Forms\frmBoleto.resx">
       <DependentUpon>frmBoleto.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Cooperativa\Forms\frmboletoasiento.resx">
+      <DependentUpon>frmboletoasiento.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cooperativa\Forms\frmBus.resx">
       <DependentUpon>frmBus.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cooperativa\Forms\frmbuscarclienteboleto.resx">
       <DependentUpon>frmbuscarclienteboleto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cooperativa\Forms\frmbusquedadato.resx">
+      <DependentUpon>frmbusquedadato.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cooperativa\Forms\frmClientes.resx">
       <DependentUpon>frmClientes.cs</DependentUpon>

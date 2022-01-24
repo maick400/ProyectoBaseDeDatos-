@@ -16,5 +16,25 @@ namespace TerminalesProyecto.Cooperativa.Forms
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

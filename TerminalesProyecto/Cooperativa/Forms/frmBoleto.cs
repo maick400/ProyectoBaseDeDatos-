@@ -67,5 +67,22 @@ namespace TerminalesProyecto.Cooperativa.Forms
             new frmbuscarclienteboleto().Show();
             this.Hide();
         }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new frmboletoasiento().Show();
+            this.Hide();
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
