@@ -9,3 +9,5 @@ C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\Terminales
 C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.csproj.CoreCompileInputs.cache
 C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.exe
 C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.pdb
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Cooperativa.Forms.ClienteAgregar.resources
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Cooperativa.Forms.frmClientes.resources

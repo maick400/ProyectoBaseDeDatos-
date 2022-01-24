@@ -1,6 +1,6 @@
 ﻿namespace TerminalesProyecto.Cooperativa.Forms
 {
-    partial class Clientes
+    partial class frmClientes
     {
         /// <summary>
         /// Required designer variable.
@@ -212,6 +212,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Clientes";
             this.Text = "Clientes COOPERATIVA ****************";
+            this.Load += new System.EventHandler(this.Clientes_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data;
+using System.Data.SqlClient;
+using TerminalesProyecto.Logica;
 
 namespace TerminalesProyecto.Cooperativa.Clases
 {
@@ -19,6 +21,7 @@ namespace TerminalesProyecto.Cooperativa.Clases
         string telefono2;
         string email;
         string tipoSangre;
+        ConexionDB cnx=new ConexionDB();
 
         public int IdCliente { get => idCliente; set => idCliente = value; }
         public string Nombres { get => nombres; set => nombres = value; }
@@ -46,10 +49,11 @@ namespace TerminalesProyecto.Cooperativa.Clases
 
         }
 
-        public static DataTable ListarModelos()
+        public  DataTable Listar()
         {
-            return new DataTable();
-
+            cnx = new ConexionDB();          
+            SqlCommand cmd = new SqlCommand("spCoopListarClientes");
+            return cnx.ListarProcAlmacenado(cmd);
 
         }
     }

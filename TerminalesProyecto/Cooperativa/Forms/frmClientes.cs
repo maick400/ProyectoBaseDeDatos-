@@ -7,12 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TerminalesProyecto.Cooperativa.Clases;
 
 namespace TerminalesProyecto.Cooperativa.Forms
 {
-    public partial class Clientes : Form
+    public partial class frmClientes : Form
     {
-        public Clientes()
+
+        Cliente cliente = new Cliente();
+        public frmClientes()
         {
             InitializeComponent();
         }
@@ -25,6 +28,12 @@ namespace TerminalesProyecto.Cooperativa.Forms
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void Clientes_Load(object sender, EventArgs e)
+        {
+
+            dataGridView1.DataSource = cliente.Listar();
         }
     }
 }

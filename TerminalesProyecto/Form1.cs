@@ -16,5 +16,12 @@ namespace TerminalesProyecto
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Logica.ConexionDB  conexion= new Logica.ConexionDB();
+
+            MessageBox.Show(conexion.abrirConexion());
+        }
     }
 }

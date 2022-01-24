@@ -68,11 +68,11 @@
     <Compile Include="Cooperativa\Forms\ClienteAgregar.Designer.cs">
       <DependentUpon>ClienteAgregar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cooperativa\Forms\Clientes.cs">
+    <Compile Include="Cooperativa\Forms\frmClientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cooperativa\Forms\Clientes.Designer.cs">
-      <DependentUpon>Clientes.cs</DependentUpon>
+    <Compile Include="Cooperativa\Forms\frmClientes.Designer.cs">
+      <DependentUpon>frmClientes.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -80,13 +80,14 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Logica\ConexionDB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Cooperativa\Forms\ClienteAgregar.resx">
       <DependentUpon>ClienteAgregar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Cooperativa\Forms\Clientes.resx">
-      <DependentUpon>Clientes.cs</DependentUpon>
+    <EmbeddedResource Include="Cooperativa\Forms\frmClientes.resx">
+      <DependentUpon>frmClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -116,7 +117,6 @@
   <ItemGroup>
     <Folder Include="Locales\Clases\" />
     <Folder Include="Locales\Forms\" />
-    <Folder Include="NewFolder1\" />
     <Folder Include="Terminales\Clases\" />
     <Folder Include="Terminales\Forms\" />
   </ItemGroup>

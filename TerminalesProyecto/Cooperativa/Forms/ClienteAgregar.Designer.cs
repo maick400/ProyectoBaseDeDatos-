@@ -239,7 +239,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label9.Location = new System.Drawing.Point(9, 393);
+            this.label9.Location = new System.Drawing.Point(6, 393);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(121, 20);
             this.label9.TabIndex = 18;
@@ -248,7 +248,7 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(136, 393);
+            this.comboBox1.Location = new System.Drawing.Point(119, 393);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(183, 24);
             this.comboBox1.TabIndex = 19;
@@ -321,7 +321,7 @@
             this.ClientSize = new System.Drawing.Size(578, 490);
             this.Controls.Add(this.groupBox1);
             this.Name = "ClienteAgregar";
-            this.Text = "ClienteAgregar";
+            this.Text = "Agregar Cliente";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
