@@ -29,30 +29,30 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnOk = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.dtpHorario = new System.Windows.Forms.DateTimePicker();
+            this.btnAgregar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.dgvDetalleEnc = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.cbxRuta = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtTelefono = new System.Windows.Forms.TextBox();
             this.txtDescripccionRuta = new System.Windows.Forms.TextBox();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.lblFehaHora = new System.Windows.Forms.Label();
-            this.cbxRuta = new System.Windows.Forms.ComboBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.dgvDetalleEnc = new System.Windows.Forms.DataGridView();
-            this.btnAgregar = new System.Windows.Forms.Button();
-            this.btnEliminar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.dtpHorario = new System.Windows.Forms.DateTimePicker();
-            this.btnOk = new System.Windows.Forms.Button();
-            this.btnCancelar = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvDetalleEnc)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDetalleEnc)).BeginInit();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -66,6 +66,98 @@
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos Ruta ";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.panel1);
+            this.groupBox4.Controls.Add(this.btnAgregar);
+            this.groupBox4.Controls.Add(this.btnEliminar);
+            this.groupBox4.Controls.Add(this.dgvDetalleEnc);
+            this.groupBox4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.groupBox4.Location = new System.Drawing.Point(3, 118);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(523, 164);
+            this.groupBox4.TabIndex = 11;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Horarios";
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.btnOk);
+            this.panel1.Controls.Add(this.btnCancelar);
+            this.panel1.Controls.Add(this.dtpHorario);
+            this.panel1.Location = new System.Drawing.Point(130, 35);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 100);
+            this.panel1.TabIndex = 6;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(25, 16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(143, 17);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "Seleciones el Horario";
+            // 
+            // btnOk
+            // 
+            this.btnOk.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnOk.Location = new System.Drawing.Point(107, 68);
+            this.btnOk.Name = "btnOk";
+            this.btnOk.Size = new System.Drawing.Size(80, 26);
+            this.btnOk.TabIndex = 9;
+            this.btnOk.Text = "Ok";
+            this.btnOk.UseVisualStyleBackColor = true;
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnCancelar.Location = new System.Drawing.Point(22, 68);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(79, 26);
+            this.btnCancelar.TabIndex = 8;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            // 
+            // dtpHorario
+            // 
+            this.dtpHorario.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dtpHorario.Location = new System.Drawing.Point(57, 39);
+            this.dtpHorario.Name = "dtpHorario";
+            this.dtpHorario.Size = new System.Drawing.Size(92, 23);
+            this.dtpHorario.TabIndex = 0;
+            // 
+            // btnAgregar
+            // 
+            this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnAgregar.Location = new System.Drawing.Point(425, 22);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(69, 46);
+            this.btnAgregar.TabIndex = 5;
+            this.btnAgregar.Text = "+";
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnEliminar.Location = new System.Drawing.Point(425, 74);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(69, 46);
+            this.btnEliminar.TabIndex = 4;
+            this.btnEliminar.Text = "-";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            // 
+            // dgvDetalleEnc
+            // 
+            this.dgvDetalleEnc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDetalleEnc.Location = new System.Drawing.Point(6, 22);
+            this.dgvDetalleEnc.Name = "dgvDetalleEnc";
+            this.dgvDetalleEnc.Size = new System.Drawing.Size(413, 124);
+            this.dgvDetalleEnc.TabIndex = 0;
             // 
             // groupBox2
             // 
@@ -84,6 +176,14 @@
             this.groupBox2.TabIndex = 8;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Destino";
+            // 
+            // cbxRuta
+            // 
+            this.cbxRuta.FormattingEnabled = true;
+            this.cbxRuta.Location = new System.Drawing.Point(101, 21);
+            this.cbxRuta.Name = "cbxRuta";
+            this.cbxRuta.Size = new System.Drawing.Size(318, 21);
+            this.cbxRuta.TabIndex = 15;
             // 
             // label3
             // 
@@ -141,57 +241,6 @@
             this.lblFehaHora.Tag = "Fecha ";
             this.lblFehaHora.Text = "MM/DD/AA   HH:MM";
             // 
-            // cbxRuta
-            // 
-            this.cbxRuta.FormattingEnabled = true;
-            this.cbxRuta.Location = new System.Drawing.Point(101, 21);
-            this.cbxRuta.Name = "cbxRuta";
-            this.cbxRuta.Size = new System.Drawing.Size(318, 21);
-            this.cbxRuta.TabIndex = 15;
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.panel1);
-            this.groupBox4.Controls.Add(this.btnAgregar);
-            this.groupBox4.Controls.Add(this.btnEliminar);
-            this.groupBox4.Controls.Add(this.dgvDetalleEnc);
-            this.groupBox4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.groupBox4.Location = new System.Drawing.Point(3, 118);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(523, 164);
-            this.groupBox4.TabIndex = 11;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Horarios";
-            // 
-            // dgvDetalleEnc
-            // 
-            this.dgvDetalleEnc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDetalleEnc.Location = new System.Drawing.Point(6, 22);
-            this.dgvDetalleEnc.Name = "dgvDetalleEnc";
-            this.dgvDetalleEnc.Size = new System.Drawing.Size(413, 124);
-            this.dgvDetalleEnc.TabIndex = 0;
-            // 
-            // btnAgregar
-            // 
-            this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.btnAgregar.Location = new System.Drawing.Point(425, 22);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(69, 46);
-            this.btnAgregar.TabIndex = 5;
-            this.btnAgregar.Text = "+";
-            this.btnAgregar.UseVisualStyleBackColor = true;
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.btnEliminar.Location = new System.Drawing.Point(425, 74);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(69, 46);
-            this.btnEliminar.TabIndex = 4;
-            this.btnEliminar.Text = "-";
-            this.btnEliminar.UseVisualStyleBackColor = true;
-            // 
             // btnSalir
             // 
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
@@ -212,54 +261,6 @@
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
             // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.btnOk);
-            this.panel1.Controls.Add(this.btnCancelar);
-            this.panel1.Controls.Add(this.dtpHorario);
-            this.panel1.Location = new System.Drawing.Point(130, 35);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 100);
-            this.panel1.TabIndex = 6;
-            // 
-            // dtpHorario
-            // 
-            this.dtpHorario.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dtpHorario.Location = new System.Drawing.Point(57, 39);
-            this.dtpHorario.Name = "dtpHorario";
-            this.dtpHorario.Size = new System.Drawing.Size(92, 23);
-            this.dtpHorario.TabIndex = 0;
-            // 
-            // btnOk
-            // 
-            this.btnOk.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.btnOk.Location = new System.Drawing.Point(107, 68);
-            this.btnOk.Name = "btnOk";
-            this.btnOk.Size = new System.Drawing.Size(80, 26);
-            this.btnOk.TabIndex = 9;
-            this.btnOk.Text = "Ok";
-            this.btnOk.UseVisualStyleBackColor = true;
-            // 
-            // btnCancelar
-            // 
-            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.btnCancelar.Location = new System.Drawing.Point(22, 68);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(79, 26);
-            this.btnCancelar.TabIndex = 8;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(25, 16);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(143, 17);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "Seleciones el Horario";
-            // 
             // frmAgregarHorario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -271,12 +272,12 @@
             this.Name = "frmAgregarHorario";
             this.Text = "frmAgregarHorario";
             this.groupBox1.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.groupBox4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvDetalleEnc)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDetalleEnc)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
 
         }

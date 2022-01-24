@@ -10,23 +10,11 @@ using System.Windows.Forms;
 
 namespace TerminalesProyecto.Cooperativa.Forms
 {
-    public partial class frmDestinos : Form
+    public partial class frmBuscarbus : Form
     {
-        public frmDestinos()
+        public frmBuscarbus()
         {
             InitializeComponent();
-        }
-
-        private void frmDestinos_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            new frmAgregarDestino().Show();
-            this.Hide();
-
         }
     }
 }

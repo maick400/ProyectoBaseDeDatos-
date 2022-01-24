@@ -221,4 +221,31 @@
         9wjC/wG5I7LnUG+ogwAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="button3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAAnhJREFUWEe9lr1rVEEUxd/OJFEMBsEmgh9ELKJgZ79YBawE/wBT+AEKFgGtFUsF
+        QWwkhW20sbGMlSEfailIUtivBE2hQYxGf9d7kzfzdtzs7izvwGXf3HPvuWfn7ex7RSZGGoV/zOchXdaL
+        k67w73xj6A/XdRvwlxj+VYbXbeDflruG394ZXqeB3S2vBqZeEHfZmSnq9mn5QBFveaegbgMzT2ia0N58
+        nEb0W2pYp6DnB0bu0z+iMnk4g+CH1KC9gr4l+sdVJg8H+EbP0kPcSwZ9SnEScKv0H1GZTDDsMoLRLSG9
+        cwrOYfI5fHRKJMi9h9+vZfmIbgnryjH0U/DroQEJzD2ygoFg95ZwnfofkB9vKzTAeov8WaUHBLklfBzU
+        VRuaDP0VmsD0nHH1gIFPQwMY+kn6sLL1YIKhv2MTbtq4eoCBxdAAuzJrVD1g4MPQAIbeGFWC5DLxpQx3
+        3ahsoHWrYuCjUSVIrsVF7qZR2UDrRqzt14wqQfJtWMS23TMqG6IVassso0pQNBcXuVdGZUO0Qm2ZZVQJ
+        imbCIlx+Jz2mbBbGRCvWdjPGRZiEjB4iFN4xrm+gcTvUJLZJTypbAU6XwmLWG6SPKdsXjopGRVPeD/4H
+        fzEstoYViFHle8Ko9Fb1ZIbxabBl89UmhBahenmrGZeedh332viOOE5z27Oc3GcErsEPa1kSw9RcldpE
+        /zr8CS3bG/IY3ayKmFCLYzTLoCts5wUJudZc/PwPejaLYqhp2t3Cn6exq1fxTiEaomWiPeMUAtHJ6CWk
+        VzRUqn84tngasdXUkFRIrfRIr0oMBg2iyb1+wIAFokVsWcj1gnBSY7VdoCj+Ah4NKala1fp2AAAAAElF
+        TkSuQmCC
+</value>
+  </data>
+  <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAPpJREFUSEvllSESAjEMReuQSI6ARHIEJEdAcgQkDskROAISiUQikUgkEgv/i8xk
+        2t9timN4M0+l6WyTppv+gincwnPmHs7g14zhAb4bnuAEdrGAD6g2VD7hCobg5mqTiGs4CMvS8+W5L8ie
+        VWnV3FAx8wIlvBEqwWuomFf2YwfVYq+hYt4jLODR1GKvoWJe9rHgDvOFUfI8matuT5Q8T+ZeoVroNVTM
+        y8EriDwLhop5+VYVRCbYUDEvH8eCEWyVyVAxk72sPn4cNo67Soy6hINsoEqMyD6GiEx1LjdnmcPM4Q2q
+        zby8ks2y1OAXsWTqGeGF4Em7/2a/REofi8sQIe3MvhMAAAAASUVORK5CYII=
+</value>
+  </data>
 </root>

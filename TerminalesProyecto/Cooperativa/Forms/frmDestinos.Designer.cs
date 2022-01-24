@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.txtDestino = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.dgvDestino = new System.Windows.Forms.DataGridView();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -50,6 +50,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Buscar";
             // 
+            // txtDestino
+            // 
+            this.txtDestino.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.txtDestino.Location = new System.Drawing.Point(86, 33);
+            this.txtDestino.Name = "txtDestino";
+            this.txtDestino.Size = new System.Drawing.Size(240, 26);
+            this.txtDestino.TabIndex = 2;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -59,14 +67,6 @@
             this.label1.Size = new System.Drawing.Size(68, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Destino:";
-            // 
-            // txtDestino
-            // 
-            this.txtDestino.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txtDestino.Location = new System.Drawing.Point(86, 33);
-            this.txtDestino.Name = "txtDestino";
-            this.txtDestino.Size = new System.Drawing.Size(240, 26);
-            this.txtDestino.TabIndex = 2;
             // 
             // dgvDestino
             // 
@@ -95,6 +95,7 @@
             this.button3.TabIndex = 8;
             this.button3.Text = "Agregar";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // frmDestinos
             // 

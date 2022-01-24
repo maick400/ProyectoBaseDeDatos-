@@ -62,6 +62,18 @@
     <Compile Include="Cooperativa\Clases\Personal.cs" />
     <Compile Include="Cooperativa\Clases\Ruta.cs" />
     <Compile Include="Cooperativa\Clases\Encomienda.cs" />
+    <Compile Include="Cooperativa\Forms\chofer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\chofer.Designer.cs">
+      <DependentUpon>chofer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmagregardestino.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmagregardestino.Designer.cs">
+      <DependentUpon>frmagregardestino.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cooperativa\Forms\frmAgregarHorario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +97,18 @@
     </Compile>
     <Compile Include="Cooperativa\Forms\frmagregarchofer.Designer.cs">
       <DependentUpon>frmagregarchofer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmBuscarbus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmBuscarbus.Designer.cs">
+      <DependentUpon>frmBuscarbus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmbuscarhorario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmbuscarhorario.Designer.cs">
+      <DependentUpon>frmbuscarhorario.cs</DependentUpon>
     </Compile>
     <Compile Include="Cooperativa\Forms\frmClienteAgregar.cs">
       <SubType>Form</SubType>
@@ -140,6 +164,12 @@
     <Compile Include="Cooperativa\Forms\frmDestinos.Designer.cs">
       <DependentUpon>frmDestinos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cooperativa\Forms\frmdetalleviaje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cooperativa\Forms\frmdetalleviaje.Designer.cs">
+      <DependentUpon>frmdetalleviaje.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cooperativa\Forms\frmEncomiendaArticulo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -173,6 +203,12 @@
     <Compile Include="Logica\ConexionDB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cooperativa\Forms\chofer.resx">
+      <DependentUpon>chofer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cooperativa\Forms\frmagregardestino.resx">
+      <DependentUpon>frmagregardestino.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cooperativa\Forms\frmAgregarHorario.resx">
       <DependentUpon>frmAgregarHorario.cs</DependentUpon>
     </EmbeddedResource>
@@ -184,6 +220,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cooperativa\Forms\frmagregarchofer.resx">
       <DependentUpon>frmagregarchofer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cooperativa\Forms\frmBuscarbus.resx">
+      <DependentUpon>frmBuscarbus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cooperativa\Forms\frmbuscarhorario.resx">
+      <DependentUpon>frmbuscarhorario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cooperativa\Forms\frmClienteAgregar.resx">
       <DependentUpon>frmClienteAgregar.cs</DependentUpon>
@@ -211,6 +253,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cooperativa\Forms\frmDestinos.resx">
       <DependentUpon>frmDestinos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cooperativa\Forms\frmdetalleviaje.resx">
+      <DependentUpon>frmdetalleviaje.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cooperativa\Forms\frmEncomiendaArticulo.resx">
       <DependentUpon>frmEncomiendaArticulo.cs</DependentUpon>

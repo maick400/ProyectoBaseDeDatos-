@@ -10,23 +10,17 @@ using System.Windows.Forms;
 
 namespace TerminalesProyecto.Cooperativa.Forms
 {
-    public partial class frmDestinos : Form
+    public partial class chofer : Form
     {
-        public frmDestinos()
+        public chofer()
         {
             InitializeComponent();
         }
 
-        private void frmDestinos_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            new frmAgregarDestino().Show();
+            new frmagregarchofer().Show();
             this.Hide();
-
         }
     }
 }
