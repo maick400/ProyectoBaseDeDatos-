@@ -23,3 +23,6 @@ C:\Users\vale\Documents\Githabproyecto\TerminalesProyecto\obj\Debug\TerminalesPr
 C:\Users\vale\Documents\Githabproyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.csproj.CoreCompileInputs.cache
 C:\Users\vale\Documents\Githabproyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.exe
 C:\Users\vale\Documents\Githabproyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.pdb
+C:\Users\vale\Documents\Githabproyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Cooperativa.Forms.frmBoleto.resources
+C:\Users\vale\Documents\Githabproyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Cooperativa.Forms.frmBus.resources
+C:\Users\vale\Documents\Githabproyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Cooperativa.Forms.frmbuscarclienteboleto.resources
