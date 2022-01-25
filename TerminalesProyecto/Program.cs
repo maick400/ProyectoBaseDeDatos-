@@ -16,7 +16,7 @@ namespace TerminalesProyecto
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TerminalesProyecto.Cooperativa.Forms.frmClientes ());
+            Application.Run(new TerminalesProyecto.Cooperativa.Forms.Login ());
         }
     }
 }

@@ -37,3 +37,8 @@ C:\Users\vale\Documents\Githabproyecto\TerminalesProyecto\obj\Debug\TerminalesPr
 C:\Users\vale\Documents\Githabproyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Cooperativa.Forms.frmBus.resources
 C:\Users\vale\Documents\Githabproyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Cooperativa.Forms.frmbuscarclienteboleto.resources
 >>>>>>> c601b121a84803e9010d7e9ff967f0f2fa6d3419
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Cooperativa.Forms.frmAgregarHorario.resources
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Cooperativa.Forms.frmBoleto.resources
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Cooperativa.Forms.frmbuscarclienteboleto.resources
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Cooperativa.Forms.frmPrincipal.resources
+C:\Users\MIGUEL ANGEL\OneDrive\Escritorio\Programa\TerminalesProyecto\TerminalesProyecto\obj\Debug\TerminalesProyecto.Cooperativa.Forms.Login.resources
