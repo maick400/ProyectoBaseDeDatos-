@@ -32,6 +32,7 @@ namespace TerminalesProyecto.Cooperativa.Forms
             frm.TopLevel = false;
             pnlMain.Controls.Add(frm);
             frm.Show();
+            
         }
 
         private void generarToolStripMenuItem_Click(object sender, EventArgs e)
@@ -42,6 +43,16 @@ namespace TerminalesProyecto.Cooperativa.Forms
         private void pnlMain_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void generarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            abrirFrom(new frmEncomiendas());
         }
     }
 }

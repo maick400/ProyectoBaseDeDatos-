@@ -64,8 +64,8 @@ namespace TerminalesProyecto.Cooperativa.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            new frmbuscarclienteboleto().Show();
-            this.Hide();
+            new frmbuscarclienteboleto().ShowDialog();
+           // this.Hide();
         }
     }
 }

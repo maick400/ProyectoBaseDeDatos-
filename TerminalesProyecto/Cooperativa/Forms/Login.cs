@@ -30,8 +30,8 @@ namespace TerminalesProyecto.Cooperativa.Forms
         private void button1_Click(object sender, EventArgs e)
         {
             frmPrincipal p = new frmPrincipal();
-            this.Hide();
             p.Show();
+            this.Hide();           
         }
     }
 }
